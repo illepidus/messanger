@@ -1,6 +1,6 @@
-## Статистика по чатам
+## Статистика по двжику чатов
 
-* https://enginestat.mvk.com/rpc_engine/14813
+* [messages_mk2chat](https://enginestat.mvk.com/rpc_engine/14813)
 * Всего шардов: 4000
 * Размер снапшота: 85GiB
 
