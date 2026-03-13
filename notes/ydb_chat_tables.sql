@@ -46,10 +46,7 @@ CREATE TABLE chat_message (
     created_at           Timestamp,
     updated_at           Timestamp,
     message_flags        Int64,         -- упрощение, придется развернуть
-    message_common_flags Int64,
     ttl_sec              Uint32,
-    has_reaction         Bool,
-    deleted_for_all      Bool,
     payload_encoding     Uint8,          -- tl/proto/json/packed
     payload_blob         String,         -- тело + kludges + keyboard + forwards + mentions
     PRIMARY KEY (chat_id, chat_message_id)
